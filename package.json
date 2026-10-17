@@ -1,0 +1,32 @@
+{
+  "name": "argmem-mcp",
+  "version": "0.1.0",
+  "description": "Official ArgMem MCP server — agent memory with receipts for Claude, Claude Code, Cursor, and any MCP client.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArgMem/mcp.git"
+  },
+  "homepage": "https://argmem.com",
+  "bin": {
+    "argmem-mcp": "bin/argmem-mcp.js"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "agent-memory",
+    "ai-agents",
+    "llm",
+    "provenance",
+    "claude",
+    "cursor"
+  ]
+}
